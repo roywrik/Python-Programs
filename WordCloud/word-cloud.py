@@ -27,7 +27,6 @@ def calculate_frequencies(file_contents):
     "have", "has", "had", "do", "does", "did", "but", "at", "by", "with", "from", "here", "when", "where", "how", \
     "all", "any", "both", "each", "few", "more", "some", "such", "no", "nor", "too", "very", "can", "will", "just"]
 
-    # LEARNER CODE START HERE
     non_punctuation_text=""
     for char in file_contents:
         if char not in punctuations:
